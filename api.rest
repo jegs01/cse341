@@ -20,6 +20,6 @@ Content-Type: application/json
 ###
 
 ### Get a user by id (Published)
-POST https://cse341-xeh0.onrender.com/api/users/:id
+GET https://cse341-xeh0.onrender.com/api/users/:id
 Content-Type: application/json
 
