@@ -1,0 +1,25 @@
+# Request to the localhost version
+### Get all users (Localhost)
+GET http://localhost:3000/api/users
+Content-Type: application/json
+
+###
+
+### Get a user by id (Localhost)
+GET http://localhost:3000/api/users/:id
+Content-Type: application/json
+
+
+###
+
+# Request to the published (deployed) version
+### Get all users (Published)
+GET https://myapi.com/api/users
+Content-Type: application/json
+
+###
+
+### Get a user by id (Published)
+POST https://myapi.com/api/users/:id
+Content-Type: application/json
+
