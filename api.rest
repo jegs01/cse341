@@ -1,4 +1,7 @@
 # Request to the localhost version
+### SWAGGER DOCUMENTATION PAGE (Localhost)
+http://localhost:3000/api-docs
+
 ### Get all users (Localhost)
 GET http://localhost:3000/api/users
 Content-Type: application/json
@@ -30,6 +33,9 @@ Content-Type: application/json
 ###
 
 # Request to the published (deployed) version
+### SWAGGER DOCUMENTATION PAGE (deployed)
+https://cse341-xeh0.onrender.com/api-docs
+
 ### Get all users (Published)
 GET https://cse341-xeh0.onrender.com/api/users
 Content-Type: application/json
