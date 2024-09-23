@@ -9,6 +9,23 @@ Content-Type: application/json
 GET http://localhost:3000/api/users/:id
 Content-Type: application/json
 
+###
+
+### Post a new user (Localhost)
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+###
+
+### Update a user by id (Localhost)
+PUT http://localhost:3000/api/users/:id
+Content-Type: application/json
+
+###
+
+### Delete a user by id (Localhost)
+DELETE http://localhost:3000/api/users/:id
+Content-Type: application/json
 
 ###
 
@@ -21,5 +38,23 @@ Content-Type: application/json
 
 ### Get a user by id (Published)
 GET https://cse341-xeh0.onrender.com/api/users/:id
+Content-Type: application/json
+
+###
+
+### Post a new user (Published)
+POST https://cse341-xeh0.onrender.com/api/users
+Content-Type: application/json
+
+###
+
+### Update a user by id (Published)
+PUT https://cse341-xeh0.onrender.com/api/users/:id
+Content-Type: application/json
+
+###
+
+### Delete a user by id (Published)
+DELETE https://cse341-xeh0.onrender.com/api/users/:id
 Content-Type: application/json
 
